@@ -75,17 +75,17 @@
   }
 
   // Header scroll class
-  $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) {
-      $('#header').addClass('header-scrolled');
-    } else {
-      $('#header').removeClass('header-scrolled');
-    }
-  });
+  // $(window).scroll(function() {
+  //   if ($(this).scrollTop() > 100) {
+  //     $('#header').addClass('header-scrolled');
+  //   } else {
+  //     $('#header').removeClass('header-scrolled');
+  //   }
+  // });
 
-  if ($(window).scrollTop() > 100) {
-    $('#header').addClass('header-scrolled');
-  }
+  // if ($(window).scrollTop() > 100) {
+  //   $('#header').addClass('header-scrolled');
+  // }
 
   // Smooth scroll for the menu and links with .scrollto classes
   $('.nav-menu a, #mobile-nav a, .scrollto').on('click', function() {
@@ -204,4 +204,82 @@
   });
 
 })(jQuery);
+
+// START OF PRODUCTS PAGE
+function navigateToAdvan() {
+  // Redirect to another.html
+  window.location.href = 'advan/advan.html';
+}
+
+function navigateToPixelwar() {
+  // Redirect to another.html
+  window.location.href = 'advan-laptops/pixelwar/pixelwar.html';
+}
+function navigateToVxlite() {
+  // Redirect to another.html
+  window.location.href = 'advan-laptops/vxlite/vxlite.html';
+}
+function navigateToXtab() {
+  // Redirect to another.html
+  window.location.href = 'advan-laptops/xtab/xtab.html';
+}
+
+function navigateToWorkpro() {
+  // Redirect to another.html
+  window.location.href = 'advan-laptops/workpro/workpro.html';
+}
+
+function navigateToWorkplus() {
+  // Redirect to another.html
+  window.location.href = 'advan-laptops/workplus/workplus.html';
+}
+
+function navigateToSoulmate() {
+  // Redirect to another.html
+  window.location.href = 'advan-laptops/soulmate/soulmate.html';
+}
+
+function navigateToHuawei() {
+  // Redirect to another.html
+  window.location.href = 'huawei/huawei.html';
+}
+
+function navigateToMatebookD14() {
+  // Redirect to another.html
+  window.location.href = 'huawei-laptops/matebook-d14/matebook-d14.html';
+}
+
+function navigateToMatebookD15() {
+  // Redirect to another.html
+  window.location.href = 'huawei-laptops/matebook-d15/matebook-d15.html';
+}
+
+function navigateToMatebookD16() {
+  // Redirect to another.html
+  window.location.href = 'huawei-laptops/matebook-d16/matebook-d16.html';
+}
+
+function navigateToMatepad() {
+  // Redirect to another.html
+  window.location.href = 'huawei-laptops/matepad/matepad.html';
+}
+
+function navigateToMatepadAir() {
+  // Redirect to another.html
+  window.location.href = 'huawei-laptops/matepad-air/matepad-air.html';
+}
+
+function navigateToMatepadPro() {
+  // Redirect to another.html
+  window.location.href = 'huawei-laptops/matepad-pro/matepad-pro.html';
+}
+
+function nextSlide() {
+  // Find the carousel element and move to the next slide
+  var carousel = document.getElementById('introCarousel');
+  console.log('carousel',carousel);
+  var carouselInstance = bootstrap.Carousel.getInstance(carousel);
+  console.log('carousel isntance',carouselInstance);
+  carouselInstance.next();
+}
 
