@@ -228,15 +228,29 @@ function navigateToWorkpro() {
   // Redirect to another.html
   window.location.href = 'advan-laptops/workpro/workpro.html';
 }
+function navigateToWorkproFromHome() {
+  // Redirect to another.html
+  window.location.href = 'products/advan/advan-laptops/workpro/workpro.html';
+}
 
 function navigateToWorkplus() {
   // Redirect to another.html
   window.location.href = 'advan-laptops/workplus/workplus.html';
 }
 
+function navigateToWorkplusFromHome() {
+  // Redirect to another.html
+  window.location.href = 'products/advan/advan-laptops/workplus/workplus.html';
+}
+
 function navigateToSoulmate() {
   // Redirect to another.html
   window.location.href = 'advan-laptops/soulmate/soulmate.html';
+}
+
+function navigateToSoulmateFromHome() {
+  // Redirect to another.html
+  window.location.href = 'products/advan/advan-laptops/soulmate/soulmate.html';
 }
 
 function navigateToHuawei() {
@@ -249,6 +263,11 @@ function navigateToMatebookD14() {
   window.location.href = 'huawei-laptops/matebook-d14/matebook-d14.html';
 }
 
+function navigateToMatebookD14FromHome() {
+  // Redirect to another.html
+  window.location.href = 'products/huawei/huawei-laptops/matebook-d14/matebook-d14.html';
+}
+
 function navigateToMatebookD15() {
   // Redirect to another.html
   window.location.href = 'huawei-laptops/matebook-d15/matebook-d15.html';
@@ -257,6 +276,11 @@ function navigateToMatebookD15() {
 function navigateToMatebookD16() {
   // Redirect to another.html
   window.location.href = 'huawei-laptops/matebook-d16/matebook-d16.html';
+}
+
+function navigateToMatebookD16FromHome() {
+  // Redirect to another.html
+  window.location.href = 'products/huawei/huawei-laptops/matebook-d16/matebook-d16.html';
 }
 
 function navigateToMatepad() {
