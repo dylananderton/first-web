@@ -790,7 +790,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top {
   background: #111;
-  padding: 60px 0 30px 0;
+  padding: 30px 0;
 }
 
 #footer .footer-top .footer-info {
@@ -897,7 +897,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-contact {
-  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 #footer .footer-top .footer-contact p {
@@ -1006,4 +1010,39 @@ body.mobile-nav-active #mobile-nav-toggle {
   #mobile-nav-toggle {
     display: inline;
   }
+}
+
+.mission-div {
+  padding: 10px 20px 15px;
+}
+
+.vision-div {
+  height: 209px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1199px){
+  .vision-div {
+    height: 233px;
+  }
+}
+
+@media only screen and (max-width: 991px){
+  .vision-div {
+    height: 305px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .vision-div {
+    height: 209px;
+  }
+}
+
+.vision {
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
 }
