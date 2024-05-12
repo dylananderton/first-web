@@ -770,9 +770,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-col p {
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
-  color: #333;
+  color: #666666;
   margin-bottom: 0;
   padding: 0 20px 20px 20px;
 }
@@ -1017,7 +1017,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .vision-div {
-  height: 209px;
+  padding: 10px 20px 15px;
+  height: 233px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1031,18 +1032,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media only screen and (max-width: 991px){
   .vision-div {
-    height: 305px;
+    height: 329px;
   }
 }
 
 @media only screen and (max-width: 767px){
   .vision-div {
-    height: 209px;
+    height: 233px;
   }
 }
 
 .vision {
-  font-weight: bold;
-  font-style: italic;
   text-align: center;
 }
